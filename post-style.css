@@ -1,0 +1,125 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+}
+
+body{
+	justify-content: center;
+	background: #62696e;
+	text-align: center;	
+}
+
+.web-title{
+	color: white;
+	font-size: 5rem	;
+	display: inline-block;
+	padding: 5px;
+	margin-top: 4px;
+	background: #F0131E;
+	border-radius: 5px;
+}
+
+.post-title{
+	text-align: center;
+	color: white;
+	margin-top: 30px;
+	background: black;
+	display: inline-block;
+	padding: 20px;
+	border-radius: 20px;
+
+}
+.head{
+	height: 100px;
+	width: 100%;
+	background: black;
+
+
+}
+.post{
+	text-align: center;
+	margin-top: 20px;
+}
+.post img{
+		border-radius:20px;
+		box-shadow: 0  10px	15px black;
+		height: 600px;
+		width: 400px;
+}
+
+.downloaders{
+	margin-top: 20px;
+}
+.down-link{
+	color: white;
+	background: #111111;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.link-480p{
+	margin-top: 20px;
+	text-decoration: none;
+	color: white;
+	font-size: 1.5rem;
+	background: #C400E7;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 20px;
+	box-shadow: 0 5px 5px black;
+}
+
+.ss{	
+	align-items: center;
+	display: flex;	
+	justify-content: center ;
+	margin-top: 20px;
+}
+
+
+.footer{
+
+margin-top: 70px;
+height: 50px;
+width: 100%;
+background: black;
+}
+
+.footer-txt{
+	color: white;
+}
+
+@media only screen and (max-width:600px){
+.post-title{
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+	background: black;
+	display: inline-block;
+	padding: 20px;
+	border-radius: 20px;}
+
+	.footer-txt{
+	font-size: 10px;	
+
+}
+
+.web-title{
+	color: white;
+	font-size: 2rem	;
+	display: inline-block;
+	padding: 5px;
+	margin-top: 30px;
+	background: #F0131E;
+	border-radius: 5px;
+}
+.post img{
+		border-radius:20px;
+		box-shadow: 0  10px	15px black;
+		height: 400px;
+		width: 270px;
+}
+
+}
